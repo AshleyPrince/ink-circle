@@ -10,7 +10,7 @@ body {
 }
 
 /*Verkackte schrift*/
-h1, h2 {
+h1, .zweiteuber {
   color: #7e1527;
   text-shadow: 1px 1px 0px white, 1px -1px 0px white, -1px 1px 0px white, -1px -1px 0px white;
   text-align: center;
@@ -127,6 +127,31 @@ main {
 .manga article {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.manga:nth-of-type(odd) {
+  background-color: white;
+  color: #28756e;
+}
+.manga:nth-of-type(odd) img {
+  border-color: #28756e;
+}
+
+/*Social Media Icons*/
+div img {
+  width: 50px;
+}
+
+/*Social Media Div*/
+.social {
+  background-color: #28756e;
+  margin: auto;
+  border-radius: 25px;
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  align-self: center;
 }
 
 /*Maskottchen*/
