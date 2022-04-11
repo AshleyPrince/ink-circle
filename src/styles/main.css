@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/src/images/img/circle/hintergrund.jpg);
+  background-repeat: no-repeat;
+}
+
+/*Verkackte schrift*/
+h1, h2 {
+  color: #7e1527;
+  text-shadow: 1px 1px 0px white, 1px -1px 0px white, -1px 1px 0px white, -1px -1px 0px white;
+  text-align: center;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+article span {
+  font-weight: bolder;
+}
+
+/*Nav Bar*/
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  align-items: center;
+  list-style: none;
+  height: 80px;
+  background-color: #28756e;
+  text-shadow: 1px 1px 0px white, 1px -1px 0px white, -1px 1px 0px white, -1px -1px 0px white;
+}
+nav ul a {
+  text-decoration: none;
+  color: #7e1527;
+}
+
+/*INK Logo*/
+.logo {
+  width: 600px;
+  z-index: 1;
+  position: relative;
+  top: 120px;
+  display: flex;
+  margin: auto;
+}
+
+/*Lu Logo*/
+.logo1 {
+  width: 400px;
+  position: relative;
+  top: 120px;
+  z-index: -1;
+  display: flex;
+  margin: auto;
+}
+
+main {
+  margin-top: -180px;
+}
+
+/*Karten insgesammt*/
+.card {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: #28756e;
+  width: 80%;
+  margin-bottom: 60px;
+  border-radius: 10px;
+}
+.card img {
+  display: flex;
+  align-self: center;
+  width: 400px;
+  height: 400px;
+  border: 8px solid #28756e;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.card article {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*Jede zweite verkackte Karte in Home*/
+.card:nth-of-type(even) {
+  background-color: #28756e;
+  color: black;
+  text-align: right;
+}
+.card:nth-of-type(even) img {
+  border: 8px solid white;
+}
+
+/*Manga Karte*/
+.manga {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  background-color: #28756e;
+  color: black;
+  width: 80%;
+  margin-bottom: 60px;
+  border-radius: 10px;
+}
+.manga img {
+  display: flex;
+  align-self: center;
+  width: 400px;
+  height: 400px;
+  border: 8px solid black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.manga article {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*Maskottchen*/
+.ghost {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+  margin-top: -90px;
+}
+.ghost img {
+  width: 300px;
+}
+
+/*Footer*/
+footer {
+  margin: auto;
+  background-color: #28756e;
+  width: 90%;
+  height: 70px;
+  margin-bottom: 40px;
+}
+footer img {
+  width: 60px;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+  background-color: #28756e;
+  text-shadow: 1px 1px 0px white, 1px -1px 0px white, -1px 1px 0px white, -1px -1px 0px white;
+}
+footer ul a {
+  text-decoration: none;
+  color: #7e1527;
+}
+footer .rechts {
+  display: grid;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+/*# sourceMappingURL=main.css.map */
