@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "AnimeAce";
+  src: url(/src/fonts/animeace/animeace2bb_ot/animeace2_reg.otf);
+}
 body {
   background-image: url(/src/images/img/circle/hintergrund.jpg);
   background-repeat: no-repeat;
@@ -11,6 +15,7 @@ body {
 
 /*Verkackte schrift*/
 h1, .zweiteuber {
+  font-family: "AnimeAce";
   color: #7e1527;
   text-shadow: 1px 1px 0px white, 1px -1px 0px white, -1px 1px 0px white, -1px -1px 0px white;
   text-align: center;
@@ -22,6 +27,10 @@ h3 {
 
 article span {
   font-weight: bolder;
+}
+
+p, li, a {
+  font-family: "AnimeAce";
 }
 
 /*Nav Bar*/
@@ -59,6 +68,7 @@ nav ul a {
   z-index: -1;
   display: flex;
   margin: auto;
+  margin-bottom: 40px;
 }
 
 main {
@@ -167,6 +177,8 @@ div img {
 
 /*Footer*/
 footer {
+  display: flex;
+  justify-content: space-between;
   margin: auto;
   background-color: #28756e;
   width: 90%;
@@ -178,6 +190,7 @@ footer img {
 }
 footer ul {
   display: flex;
+  flex-direction: row;
   list-style: none;
   background-color: #28756e;
   text-shadow: 1px 1px 0px white, 1px -1px 0px white, -1px 1px 0px white, -1px -1px 0px white;
@@ -187,9 +200,9 @@ footer ul a {
   color: #7e1527;
 }
 footer .rechts {
-  display: grid;
-  justify-content: flex-end;
-  align-items: baseline;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
