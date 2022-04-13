@@ -24,6 +24,7 @@ h1, .zweiteuber {
 
 h3 {
   text-decoration: underline;
+  font-family: "AnimeAce";
 }
 
 article span {
@@ -32,6 +33,11 @@ article span {
 
 p, li, a {
   font-family: "AnimeAce";
+  text-align: justify;
+}
+
+.artist span {
+  text-align: none;
 }
 
 /*Nav Bar*/
@@ -70,6 +76,18 @@ nav ul a {
   display: flex;
   margin: auto;
   margin-bottom: 40px;
+}
+
+/*Carikku Logo*/
+.logo2 {
+  width: 400px;
+  position: relative;
+  top: 120px;
+  z-index: -1;
+  display: flex;
+  margin: auto;
+  margin-bottom: 60px;
+  margin-top: 20px;
 }
 
 main {
@@ -138,6 +156,10 @@ main {
 .manga article {
   margin-left: 20px;
   margin-right: 20px;
+  font-family: "AnimeAce";
+}
+.manga p {
+  margin-top: 20px;
 }
 
 .manga:nth-of-type(odd) {
@@ -220,7 +242,6 @@ footer .rechts {
 .artist {
   margin-top: 20px;
   display: flex;
-  margin-right: 20px;
   width: 25vw;
   height: 100px;
   background-color: #E0E5EC;
@@ -246,6 +267,7 @@ footer .rechts {
   align-self: center;
   flex-direction: column;
   width: 12vw;
+  margin-left: 20px;
 }
 .artist a h2 {
   font-size: 1rem;
