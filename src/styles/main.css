@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -203,6 +204,69 @@ footer .rechts {
   display: flex;
   align-items: center;
   margin-right: 20px;
+}
+
+/*Karten der Künstler*/
+.bibliothek {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5%;
+  width: 90vw;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.artist {
+  margin-top: 20px;
+  display: flex;
+  margin-right: 20px;
+  width: 25vw;
+  height: 100px;
+  background-color: #E0E5EC;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 4px 4px 0px #28756e, 4px -4px 0px #28756e, -4px 4px 0px #28756e, -4px -4px 0px #28756e;
+}
+.artist img {
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: 3px solid #28756e;
+}
+.artist a {
+  text-decoration: none;
+  display: flex;
+  color: black;
+  transition: all 0.5s;
+}
+.artist a div {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  width: 12vw;
+}
+.artist a h2 {
+  font-size: 1rem;
+}
+.artist a span {
+  font-size: 0.5rem;
+}
+
+/*_______________*/
+.artist:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px 0px #7e1527, 4px -4px 0px #7e1527, -4px 4px 0px #7e1527, -4px -4px 0px #7e1527;
+}
+.artist:hover a {
+  color: #28756e;
+}
+
+.artisttitle {
+  margin-top: 30px;
+  position: relative;
+  z-index: 2;
 }
 
 /*# sourceMappingURL=main.css.map */
