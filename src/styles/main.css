@@ -10,7 +10,7 @@
   src: url(/src/fonts/animeace/animeace2bb_ot/animeace2_reg.otf);
 }
 body {
-  background-image: url(/src/images/img/circle/hintergrund.jpg);
+  background-image: url(../images/img/circle/hintergrund.jpg);
   background-repeat: no-repeat;
 }
 
@@ -25,6 +25,7 @@ h1, .zweiteuber {
 h3 {
   text-decoration: underline;
   font-family: "AnimeAce";
+  margin-bottom: 10px;
 }
 
 article span {
@@ -59,12 +60,13 @@ nav ul a {
 
 /*INK Logo*/
 .logo {
-  width: 600px;
+  width: 30rem;
   z-index: 1;
   position: relative;
   top: 120px;
   display: flex;
   margin: auto;
+  margin-top: 70px;
 }
 
 /*Lu Logo*/
@@ -207,6 +209,9 @@ footer {
   width: 90%;
   height: 70px;
   margin-bottom: 40px;
+}
+footer li {
+  margin: 5px;
 }
 footer img {
   width: 60px;
