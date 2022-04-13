@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: "AnimeAce";
-  src: url(../src/fonts/animeace/animeace2bb_ot/animeace2_reg.otf);
+  src: url(../fonts/animeace/animeace2bb_ot/animeace2_reg.otf);
 }
 body {
   background-image: url(../images/img/circle/hintergrund.jpg);
