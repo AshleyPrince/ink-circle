@@ -12,8 +12,33 @@
 body {
   background-image: url(../images/img/circle/hintergrund.jpg);
   background-repeat: no-repeat;
+  height: 100%;
+  position: relative;
 }
 
+#wolken {
+  background: none;
+  background-image: url("/src/images/img/circle/wolken.png");
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  animation: wolken 1000s linear infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes wolken {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  100% {
+    background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;
+  }
+}
 /*Verkackte schrift*/
 h1, .zweiteuber {
   font-family: "AnimeAce";
@@ -213,7 +238,6 @@ footer {
   background-color: #28756e;
   width: 90%;
   height: 70px;
-  margin-bottom: 40px;
 }
 footer li {
   margin: 5px;
