@@ -18,7 +18,7 @@ body {
 
 #wolken {
   background: none;
-  background-image: url("/src/images/img/circle/wolken.png");
+  background-image: url("../images/img/circle/wolken.png");
   height: 100%;
   left: 0;
   bottom: 0;
