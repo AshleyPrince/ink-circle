@@ -88,6 +88,64 @@ nav ul a {
   font-size: 1.5rem;
 }
 
+.ecke * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.ecke li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1em;
+  padding: 0;
+}
+
+.ecke a {
+  padding: 0.5em 0.8em;
+  margin: 0.2em 0;
+  display: block;
+  position: relative;
+  text-decoration: none;
+}
+
+.ecke a:before,
+.ecke a:after {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  content: "";
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+
+.ecke a:before {
+  left: 0;
+  top: 0;
+  border-left: 3px solid #7e1527;
+  border-top: 3px solid white;
+  -webkit-transform: translate(100%, 50%);
+  transform: translate(100%, 50%);
+}
+
+.ecke a:after {
+  right: 0;
+  bottom: 0;
+  border-right: 3px solid #ffffff;
+  border-bottom: 3px solid #7e1527;
+  -webkit-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+}
+
+.ecke a:hover:before,
+.ecke a:hover:after {
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
 /*INK Logo*/
 .logo {
   width: 30rem;
