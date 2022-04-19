@@ -9,19 +9,22 @@
   font-family: "AnimeAce";
   src: url(../fonts/animeace/animeace2bb_ot/animeace2_reg.otf);
 }
+@font-face {
+  font-family: "Comis Sans";
+  src: url(../fonts/comicsans/Qdbettercomicsans-jEEeG.ttf);
+}
 body {
   background-image: url(../images/img/circle/hintergrund.jpg);
   background-repeat: no-repeat;
   height: 100%;
   position: relative;
+  font-family: "AnimeAce", "Comis Sans";
 }
 
 #wolken {
   background: none;
   background-image: url("../images/img/circle/wolken.png");
   height: 100%;
-  left: 0;
-  bottom: 0;
   right: 0;
   position: absolute;
   top: 0;
@@ -39,21 +42,15 @@ body {
     background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;
   }
 }
-/*Verkackte schrift*/
+/*schrift*/
 h1, .zweiteuber {
-  font-family: "AnimeAce";
   color: #7e1527;
   text-shadow: 1px 1px 0px white, 1px -1px 0px white, -1px 1px 0px white, -1px -1px 0px white;
   text-align: center;
 }
 
-h2 {
-  font-family: "AnimeAce";
-}
-
 h3 {
   text-decoration: underline;
-  font-family: "AnimeAce";
   margin-bottom: 10px;
 }
 
@@ -62,7 +59,6 @@ article span {
 }
 
 p, li, a {
-  font-family: "AnimeAce";
   text-align: justify;
 }
 
@@ -125,7 +121,7 @@ nav ul a {
   left: 0;
   top: 0;
   border-left: 3px solid #7e1527;
-  border-top: 3px solid white;
+  border-top: 3px solid #7e1527;
   -webkit-transform: translate(100%, 50%);
   transform: translate(100%, 50%);
 }
@@ -133,7 +129,7 @@ nav ul a {
 .ecke a:after {
   right: 0;
   bottom: 0;
-  border-right: 3px solid #ffffff;
+  border-right: 3px solid #7e1527;
   border-bottom: 3px solid #7e1527;
   -webkit-transform: translate(-100%, -50%);
   transform: translate(-100%, -50%);
@@ -211,7 +207,7 @@ main {
   margin-right: 20px;
 }
 
-/*Jede zweite verkackte Karte in Home*/
+/*Jede zweite Karte in Home*/
 .card:nth-of-type(even) {
   background-color: #28756e;
   color: black;
@@ -246,7 +242,6 @@ main {
 .manga article {
   margin-left: 20px;
   margin-right: 20px;
-  font-family: "AnimeAce";
 }
 .manga p {
   margin-top: 20px;
