@@ -1,41 +1,26 @@
-# Sassy Website
+# Website für den Ink-Circle
 
-Baut das folgende Mockup nach [reference image folder](./images_reference).
 
-**Hinweis**:
+**Home**:
+Home soll beinhalten Wer der Inc-Circle ist und was er genau macht.
+Eventuell mit einer Newswecke
 
-Schaut in den scss-Ordner, eure main.scss ist die Datei, über die euer scss-Code strukturiert wird. Von hier aus wird euer scss in css umgewandelt. Aber benutzt besser die anderen _.scss Dateien, um euren Code sinnvoll zu splitten.
 
-**Anleitung**
-- Benutzt "nesting" und "variables" 
-- Beginnt mit "mobile first"!
-    - Breakpoint (Tablet) --> 768px 
+**Künstler**:
+Eine Liste mit den Künstlern des Ink-Circkles, die dort jeweils einen kleinen Wiki-Eintrag dort bekommen.
 
-- Die verwendeten Farben:
-  - Card background: #e0ddb2
-  - Card und aside Rahmen: #dad6ab
-  - nav and footer: #016690
 
-- Benutzt die Bilder im [images Ordner](./src/images) für den header und die cards.
+**Anthologie**:
+Auflistung der shcon hergetstellten Anthologien des Circles plus Inhaltsangabe und Mitwirkende
 
-**Mobile**
 
-![mockup-image-mobile](./images_reference/mobile1.png)
+**AGB und Impressum**:
+gibts natürlich auch, immer rechts unten auf der Seite verlinkt
 
-![mockup-image-mobile](./images_reference/mobile2.png)
 
-**Tablet**
+**Breakpoint**:
+Breakpoint (Tablet) --> 768px 
 
-![mockup-image-tablet](./images_reference/tablet.png)
-
-<br><br>
-
-**BONUS**
-
-Fügt noch eine Desktop Version hinzu:
-
-Breakpoint --> 1024px
-
-<br>
-
-![mockup-image-desktop](./images_reference/desktop.png)
+Die verwendeten Farben:
+  - rgb(40, 117, 110)
+  - rgb(126, 21, 39);
