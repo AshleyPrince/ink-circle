@@ -42,6 +42,10 @@ body {
     background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;
   }
 }
+.logoleft {
+  display: none;
+}
+
 /*schrift*/
 h1, .zweiteuber {
   color: #7e1527;
@@ -507,6 +511,37 @@ hr {
 
 .abstand {
   margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  header nav {
+    display: grid;
+    justify-content: center;
+    border-radius: 20px;
+  }
+
+  header nav ul {
+    border-radius: 25px;
+    width: 70vw;
+    background-color: rgba(40, 117, 111, 0.704);
+    box-shadow: 8px 1px 8px black, 4px -4px 4px black, -8px 1px 8px black, -4px -4px 4px black;
+  }
+
+  .logoleft {
+    display: flex;
+    width: 300px;
+  }
+
+  .card,
+.manga,
+.card1 {
+    width: 60%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
