@@ -13,6 +13,10 @@
   font-family: "Comis Sans";
   src: url(../fonts/comicsans/Qdbettercomicsans-jEEeG.ttf);
 }
+@font-face {
+  font-family: "Monserat";
+  src: url(../fonts/monserat/Montserrat-VariableFont_wght.ttf);
+}
 body {
   background-image: url(../images/img/circle/hintergrund.jpg);
   background-repeat: repeat;
@@ -533,7 +537,7 @@ hr {
   }
 
   .logoleft {
-    display: flex;
+    display: block;
     width: 300px;
   }
 

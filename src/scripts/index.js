@@ -1,1 +1,7 @@
-// Any code you will write for your website (in the future!) should go here
+let allP = document.querySelectorAll('p');
+
+allP.forEach((element) => {
+    let str = element.outerHTML
+    newStr = str.replace(/ß/g, '<span class="neu">ẞ</span>')
+    element.outerHTML = newStr
+})
