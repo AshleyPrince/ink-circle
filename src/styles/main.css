@@ -26,11 +26,17 @@
 }
 
 /* ## FIX LOGO on artist page*/
-.ashley-page header img, .lu-page header img, .index header img {
+.ashley-page header img,
+.lu-page header img,
+.index header img,
+.anthologie-page header img {
   display: none;
 }
 @media (min-width: 992px) {
-  .ashley-page header img, .lu-page header img, .index header img {
+  .ashley-page header img,
+.lu-page header img,
+.index header img,
+.anthologie-page header img {
     display: block;
   }
 }
