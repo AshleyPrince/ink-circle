@@ -260,7 +260,6 @@ nav ul a {
 .manga p {
   margin-top: 20px;
 }
-
 .manga:nth-of-type(odd) {
   background-color: white;
   color: #328b84;
@@ -371,7 +370,6 @@ footer .rechts {
   font-size: 0.4em;
 }
 
-/*_______________*/
 /*Anthologie*/
 /*Karten insgesammt(Anthologie)*/
 .card1 {
@@ -430,7 +428,6 @@ hr {
   border-radius: 20px;
   background: #fff;
 }
-
 .sprechblase:before {
   content: " ";
   position: absolute;
@@ -441,7 +438,6 @@ hr {
   border: 20px solid;
   border-color: #328b84 transparent transparent #328b84;
 }
-
 .sprechblase:after {
   content: " ";
   position: absolute;
@@ -452,7 +448,6 @@ hr {
   border: 15px solid;
   border-color: #ffffff transparent transparent #ffffff;
 }
-
 .sprechblase article {
   text-align: center;
 }
@@ -571,6 +566,7 @@ hr {
     text-align: center;
   }
   .bibliothek .artist > img {
+    border: #328b84 4px solid;
     width: 50%;
     aspect-ratio: 1/1;
     object-fit: cover;
