@@ -498,7 +498,7 @@ hr {
 }
 
 /*Desktop*/
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 992px) {
   .logo {
     width: 30rem;
     margin: 0 auto;
@@ -554,6 +554,7 @@ hr {
     flex-wrap: wrap;
   }
   .bibliothek .artist h2 {
+    background-color: #328b84;
     font-size: 1em;
     width: 100%;
     text-align: center;
@@ -566,7 +567,7 @@ hr {
     text-align: center;
   }
   .bibliothek .artist > img {
-    border: #328b84 4px solid;
+    border: black 4px solid;
     width: 50%;
     aspect-ratio: 1/1;
     object-fit: cover;
